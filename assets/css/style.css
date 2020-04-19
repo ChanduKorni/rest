@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-default{
+    transition:500ms ease;
+    background:transparent !important;
+}
+.navbar-default.scrolled{
+    background: #c0a756 !important;
+}
+.bg-dark{
+    background-color: transparent !important;
+}
+.pad20{
+    padding: 20px !important;
+}
+.main-bg{
+    background: url(../../assets/images/img02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.fntsz-logo{
+    font-size: 1.9rem !important;
+    letter-spacing: .2rem !important;
+}
+.top-main-300{
+    position: relative;
+    top: 300px !important;
+}
+.home-button-work{
+    font-size: .85em;
+    text-transform: uppercase;
+    padding: .6em 1.45em;
+    border-radius: .25em;
+    background-color: #dc3e4a;
+    color: #fff;
+}
+.abt-pad-70{
+    padding: 70px 0px !important;
+}
+.abt-title:before, .abt-title:after{
+    content: url(../../assets/images/header_decorator.png);
+    margin: 14px;
+    color: #D1BC87;
+    vertical-align: text-top;
+}
+.lnht-30{
+    line-height: 30px !important;
+}
+.mrgnbtm-50{
+    margin-bottom: 50px !important;
+}
+.opnghrs-img{
+    background: url(../../assets/images/opening_hours.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /*height: 75vh;*/
+}
+.timetable-decorator {
+    display: inline-block;
+    width: 200px;
+    height: 110px;
+    background: url(../../assets/images/timetable-decorator.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: " ";    
+    transition: all 0.5s ease;
+}
+.opening-hours {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 30px !important;
+}
+.timetable-decorator2 {
+    display: inline-block;
+    width: 200px;
+    height: 110px;
+    background: url(../../assets/images/timetable-decorator2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: " ";    
+    transition: all 0.5s ease;
+}
+.pos-top40{
+    position: relative;
+    top: -40px !important;
+}
+/*.column-divider {
+    overflow: hidden;
+    background-image: url(../../assets/images/column-divider.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    left: 49.6%;
+    margin-top: 135px;
+    padding: 50% 1%;    
+    transition: all 0.5s ease;
+}*/
+.menu-bg{
+    background-image: url(../../assets/images/menu_left.jpg), url(../../assets/images/menu_right.jpg);
+    background-position: top left, top right;
+    background-repeat: no-repeat;
+}
+.mrgnbtm-30{
+    margin-bottom: 30px !important;
+}
+.menu-btn{
+    display: block;
+    margin: 0 auto;    
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    color: #bfa760;
+    border: 2px solid #bfa760;
+    padding: 16px 10px;
+    margin-top: 68px;
+    margin-bottom: 23px;
+    background: transparent;    
+    transition: 0.5s all ease;
+    width: 260px;
+    height: 65px;
+}
+.menu-btn:hover{
+    background: #bfa760;
+    color: #ffffff;
+}
+/*.menu-btn:before{
+    content: url(../../assets/images/button_line.png);
+    position: absolute;
+    right: 350px;
+}
+.menu-btn:after{
+    content: url(../../assets/images/button_line.png);
+    position: absolute;
+    left: 350px;
+}*/
+.nav-tabs, .nav-tabs .nav-link{
+    border: none !important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border-bottom: 2px solid #bfa760 !important;
+    color: #FFF !important;
+    background-color: transparent !important;
+}
+.bg-black{
+    background: #000 !important;
+}
+.clr-gold, .clr-gold:hover{
+    color: #c0a756 !important;
+}
+.subtitle {
+    margin: 0 0 2em 0;
+}
+.fancy {
+    line-height: 0.5;
+    text-align: center;
+}
+.fancy span {
+    display: inline-block;
+    position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid #c0a756;
+    /*border-top: 1px solid #c0a756;*/
+    top: 5px;
+    width: 100px;
+}
+.fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+.fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+.tstm-img{
+    background: url(../../assets/images/testimonials.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-inner .carousel-item .img-box{
+    width: 135px;
+    height: 135px;
+}
+.carousel-control-prev{
+    left: -100px;
+}
+.carousel-control-next{
+    right: -100px;
+}
+.carousel-indicators{
+    top: 320px;
+}
+.bg-gold{
+    background-color: #c0a756 !important;
+}
+.abt-clr-gold{
+    color: #c0a756 !important; 
+}
+a:hover{
+    text-decoration: none !important;
+}
+.fntszpt9rem{
+    font-size: .9rem !important;
+}
+.abt-main-bg{
+    background-color: #c0a756 !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+.pos-rel-top100{
+    position: relative;
+    top: 100px !important;
+}
+.mb-15{
+    margin-bottom: 15px !important;
+}
+.button-work {
+    font-size: .85em;
+    text-transform: uppercase;
+    padding: .6em 1.45em;
+    border-radius: .25em;
+    background-color: #c0a756;
+    color: #fff;
+}
+.button-work:hover {
+    text-decoration: none !important;
+    color: #FFF !important;
+}
+.glry-menu-img{
+    background: url(../../assets/images/opening_hours.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-width: 320px) and (max-width: 640px) {
+    .carousel-inner .carousel-item p{
+        font-size: 14px;
+    }
+    .carousel-control-prev{
+        left: -40px;
+    }
+    .carousel-control-next{
+        right: -40px;
+    }
+    .carousel-indicators{
+        top: 400px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 990px) {
+    .bg-dark{
+        background-color: #c0a756 !important;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 990px) {
+    .opnghrs-img {
+        background: url(../../assets/images/opening_hours.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        /*height: 100vh;*/
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 990px) {
+    .timetable-decorator, .timetable-decorator2{
+        display: none !important;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 990px) {
+    .mob-mb-30{
+        margin-bottom: 30px !important;
+    }
+}
